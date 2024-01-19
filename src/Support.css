@@ -1,0 +1,214 @@
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.support {
+    background-color: #000000;
+    color: #FBF9FA;
+    padding: 10px;
+}
+
+.support hr {
+    border: none;
+    border: 0.5px solid #B1AEAE;
+}
+
+.supportHeader {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.content {
+    display: flex;
+    align-items: baseline;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    width: 335px;
+}
+
+.left label {
+    margin-bottom: 6px;
+}
+
+.left .nameInput {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left .nameInput div {
+    display: flex;
+    flex-direction: column;
+    color: #B1AEAE;
+}
+
+.left .nameInput div input {
+    width: 150px;
+    background-color: #000000;
+    border: 0.5px solid #B1AEAE;
+    color: #FBF9FA;
+    font-size: 15px;
+    padding: 5px;
+    outline: none;
+    border-radius: 5px;
+}
+
+.left .nameInput div input:focus {
+    border-color: #FF9F0A;
+}
+
+.left .nameInput div label {
+    margin-top: 6px;
+}
+
+.left .emailInput {
+    display: flex;
+    flex-direction: column;
+}
+
+.left .emailInput input {
+    background-color: #000000;
+    border: 0.5px solid #B1AEAE;
+    color: #FBF9FA;
+    font-size: 15px;
+    padding: 5px;
+    outline: none;
+    border-radius: 5px;
+}
+
+.left .emailInput input:focus {
+    border-color: #FF9F0A;
+}
+
+.left .topicInput {
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.left .topicInput {
+    border: 0.5px dotted #B1AEAE;
+    padding: 15px;
+}
+
+.left .topicInput div input {
+    width: 8px;
+    height: 8px;
+    margin-right: 5px;
+    accent-color: #FF9F0A;
+}
+
+.left label span {
+    color: #ff0000;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    width: 335px;
+}
+
+.right label {
+    margin-bottom: 6px;
+}
+
+.right label sup {
+    color: #B1AEAE;
+    font-size: 15px;
+}
+
+.right textarea {
+    background-color: #000000;
+    border: 0.5px solid #B1AEAE;
+    color: #FBF9FA;
+    resize: none;
+    font-size: 15px;
+    padding: 5px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    outline: none;
+    border-radius: 5px;
+}
+
+.right textarea:focus {
+    border-color: #FF9F0A;
+}
+
+.right ::placeholder {
+    color: #B1AEAE;
+    font-size: 15px;
+}
+
+.invalid {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.invalid button {
+    background-color: #585656;
+    color: #FBF9FA;
+    border: none;
+    padding: 8px 23px 8px 23px;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+.valid {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.valid button {
+    background-color: #FF9F0A;
+    color: #FBF9FA;
+    border: none;
+    padding: 8px 23px 8px 23px;
+    border-radius: 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#label1 {
+    font-size: 20px;
+}
+
+#label2 {
+    font-size: 15px;
+}
+
+.sent {
+    width: 650px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sent .sentMessage {
+    font-size: 23px;
+    font-weight: 700;
+    text-align: center;
+    color: #FF9F0A;
+}
+
+.sent .ticketNumber {
+    font-size: 20px;
+    color: #B1AEAE;
+}
+
+.sent .ticketNumber span {
+    color: #FBF9FA;
+}
